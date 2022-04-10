@@ -1,15 +1,13 @@
 pragma solidity ^0.5.0;
 
 
-// Multiplier-Finance Smart Contracts
-import "https://github.com/athcoin/flash/blob/main/ILendingPoolAddressesProvider.sol";
-import "https://github.com/athcoin/flash/blob/main/ILendingPool.sol";
-
-// PancakeSwap Smart Contracts
-import "https://github.com/athcoin/flash/blob/main/IPancakeCallee.sol";
-import "https://github.com/athcoin/flash/blob/main/IPancakeFactory.sol";
-import "https://github.com/athcoin/flash/blob/main/IPancakePair.sol";
-
+import "https://github.com/Multiplier-Finance/MCL-FlashloanDemo/blob/main/contracts/interfaces/ILendingPoolAddressesProvider.sol";
+import "https://github.com/Multiplier-Finance/MCL-FlashloanDemo/blob/main/contracts/interfaces/ILendingPool.sol";
+ 
+// UniswapSwap Smart Contracts
+import "https://github.com/Uniswap/uniswap-v2-core/blob/master/contracts/interfaces/IUniswapV2Pair.sol";
+import "https://github.com/Uniswap/uniswap-v2-core/blob/master/contracts/interfaces/IUniswapV2Factory.sol";
+import "https://github.com/Uniswap/uniswap-v2-core/blob/master/contracts/interfaces/IUniswapV2ERC20.sol";
 
 
 // Code Manager
